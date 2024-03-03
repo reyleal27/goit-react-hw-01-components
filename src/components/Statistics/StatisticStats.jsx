@@ -19,6 +19,7 @@ const StatisticsStats = ({ title, stats}) => {
     );
 };
 
+
 StatisticsStats.propTypes = {
     title: PropTypes.string.isRequired,
     stats: PropTypes.arrayOf(
